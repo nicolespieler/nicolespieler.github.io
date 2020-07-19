@@ -1,40 +1,122 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="format.css" type="text/css">
     </head>
 
-    <body>
-        <div class="wrapper">
-           
-                <nav>
-                    <div class="logo">
-                         <h3><a href="index.html">Nicole Spieler</a></h3>
-                    </div>
+    <body>      
+        <nav>
+            <div class="logo">
+                <a href="index.html">Nicole Spieler</a>
+            </div>
 
-                    <div class="menu">
-                        <ul>
-                            <li><a href="nature.html">Nature</a> 
-                                 <ul>
-                                   <li><a>Mountains</a></li>  
-                                   <li><a>Flowers</a></li> 
-                                   <li><a>Forest</a></li> 
-                                 </ul>
-                            </li>    
-                            <li><a href="travel.html">Travel</a>
-                                 <ul>
-                                   <li><a>Vienna</a></li>
-                                   <li><a>Oman</a></li>
-                                   <li><a>Dubai</a></li>
-                                   <li><a>Budapest</a></li>
-                                   <li><a>Rome</a></li>
-                                 </ul>
-                            </li>
-                            <li><a href="animals.html">Animals</a></li>
-                            <li><a href="people.html">People</a></li>
-                            <li><a href="about.html">About</a></li>        
-                         </ul>
+            <div class="menu">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="nature.html">Nature</a>
                     </div>
-                </nav>
+                    <div class="dropcontent">
+                        <a href="mountains.html">Mountains</a> 
+                        <a href="flowers.html">Flowers</a> 
+                        <a href="forest.html">Forest</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="travel.html">Travel</a>
+                    </div>
+                    <div class="dropcontent">
+                        <a href="vienna.html">Vienna</a>
+                        <a href="oman.html">Oman</a>
+                        <a href="dubai.html">Dubai</a>
+                        <a href="budapest.html">Budapest</a>
+                        <a href="rome.html">Rome</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="animals.html">Animals</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="people.html">People</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <a href="about.html">About</a>       
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <table>
+            <tr>
+                <td class="left"></td>  
+                <td>
+                    <table>
+                        <tr>
+                            <th>TRAVEL</th>
+                        </tr>
             
-        </div>
+                        <tr>
+                            <td class="space"></td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <div class="container">
+                                    <a href="vienna.html">
+                                        <img src="img/Wien4.JPG" class="image" width="300" height="300">
+                                        <div class="middle"><p class="text">Vienna</p></div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="container">
+                                    <a href="oman.html">
+                                        <img src="img/Oman14.JPG" class="image" width="300" height="300">
+                                        <div class="middle"><p class="text">Oman</p></div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="container">
+                                    <a href="dubai.html">
+                                        <img src="img/Dubai1.JPG" class="image" width="300" height="300">
+                                        <div class="middle"><p class="text">Dubai</p></div>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <div class="container">
+                                    <a href="budapest.html">
+                                        <img src="img/Bud3.JPG" class="image" width="300" height="300">
+                                        <div class="middle"><p class="text">Budapest</p></div>
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="container">
+                                    <a href="rome.html">
+                                        <img src="img/Rom6.JPG" class="image" width="300" height="300">
+                                        <div class="middle"><p class="text">Rome</p></div>
+                                    </a>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    </table>
+                </td>
+                <td class="right"> </td>
+            </tr>
+        </table>
+    </body>
+</html>
