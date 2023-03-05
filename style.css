@@ -10,7 +10,9 @@ html{
 
 body{
     
-    background-color: #eeeeee;
+  background-color: #eeeeee;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* Nav new*/
@@ -553,6 +555,20 @@ footer {
     margin-top: 5rem;
   }
 
+  .item4 {
+    margin-right: 15%;
+    margin-bottom: 20%;
+    margin-left: 10px;
+    margin-top: 5rem;
+  }
+
+  .item5 {
+    margin-right: 15%;
+    margin-bottom: 20%;
+    margin-left: 10px;
+    margin-top: 5rem;
+  }
+
   .pol1 img {
     width: 100%;
     max-height: 300px;
@@ -570,8 +586,20 @@ footer {
     max-height: 300px;
     object-fit: cover;
   }
+
+  .pol4 img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .pol5 img {
+    width: 100%;
+    max-height: 197px;
+    object-fit: cover;
+  }
   
-  .pol1 {
+  .pol1, .pol3, .pol4 {
     width: 276px;
     height: 403px;
     position: relative;
@@ -581,7 +609,7 @@ footer {
     transform: rotate(-7deg);
   }
   
-  .pol2 {
+  .pol2, .pol5 {
     width: 360px;
     height: 300px;
     position: relative;
@@ -589,16 +617,6 @@ footer {
     background-color: #e4d7ce; 
     padding: 19px 19px 85px 19px;
     transform: rotate(3deg);
-  }
-
-  .pol3 {
-    width: 276px;
-    height: 403px;
-    position: relative;
-   /*background-color: rgb(245, 244, 244);*/
-   background-color: #e4d7ce; 
-    padding: 19px 19px 85px 19px;
-    transform: rotate(-4deg);
   }
   
   .caption {
@@ -687,5 +705,32 @@ footer {
     .footer-bottom p {
       font-size: 11px;
       word-spacing: 1px;
+    }
+
+    .polaroidoben {
+      flex-direction: column;
+      padding: 0;
+    }
+    .pol1 img {
+      width: 100%;
+      max-height: 150px;
+      object-fit: cover;
+    }
+
+    .item1 {
+      margin-right: 7.5%;
+      margin-bottom: 10%;
+      margin-left: 5px;
+      margin-top: 2.5rem;
+    }
+
+    .pol1, .pol3, .pol4 {
+      width: 138px;
+      height: 201.5px;
+      position: relative;
+      /*background-color: rgb(245, 244, 244);*/
+      background-color: #e4d7ce; 
+      padding: 9.5px 9.5px 42.5px 9.5px;
+      transform: rotate(-7deg);
     }
 }
